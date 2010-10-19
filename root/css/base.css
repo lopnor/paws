@@ -1,0 +1,76 @@
+* {
+    font-family: "Lucida Grande", Verdana, Arial, Geneva, sans-serif;
+    line-height: 2em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+li {
+    list-style-type: none;
+}
+#container {
+    margin: 50px;
+}
+#header ul {
+    text-align: right;
+    float: right;
+}
+#header ul li {
+    display: inline;
+}
+form table {
+    margin: 30 auto;
+}
+textarea {
+    width: 35em;
+    height: 6em;
+}
+ul.list {
+    margin: 20 0;
+}
+ul.list li {
+    clear: both;
+    margin: 20 0;
+    border-top: 2px solid #ccc;
+}
+ul.list li p.summary {
+    display:block;
+}
+ul.topics {
+    display: inline;
+}
+ul.topics li {
+    clear: none;
+    margin: default;
+    border: none;
+    display: inline;
+}
+#footer {
+    clear: both;
+}
+#footer ul {
+    text-align: center;
+}
+#footer ul li {
+    display: inline;
+}
+#entry p {
+    margin: 20 auto;
+    font-size: 105%;
+}
+div.vote {
+    font-size: 40%;
+    line-height: 1em;
+    background-color: #eee;
+    float: right;
+}
+div.vote span.user a {
+    font-weight: bold;
+    color: #FF0000;
+}
